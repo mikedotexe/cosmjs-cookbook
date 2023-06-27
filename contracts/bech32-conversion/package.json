@@ -1,0 +1,33 @@
+{
+  "name": "cosmjs-cookbook-bech32-conversion",
+  "version": "0.1.0",
+  "description": "Set of CosmJS examples to help interchain developers.",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "go": "npm run build && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cosmjs",
+    "cosmwasm",
+    "cosmos",
+    "interchain"
+  ],
+  "author": "Mike Purvis",
+  "license": "MIT",
+  "dependencies": {
+    "@cosmjs/cosmwasm-stargate": "^0.29.4",
+    "@cosmjs/encoding": "^0.29.5",
+    "@cosmjs/proto-signing": "^0.29.4",
+    "@cosmjs/stargate": "^0.29.4",
+    "@cosmjs/tendermint-rpc": "^0.29.4",
+    "chain-registry": "^1.5.0",
+    "dotenv": "^16.0.3",
+    "typescript": "^5.1.3"
+  },
+  "devDependencies": {
+    "@chain-registry/types": "^0.13.1"
+  }
+}
