@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "outDir": "./build",
+    "allowJs": true,
+    "lib": ["es2021", "dom"],
+    "target": "es2019",
+    "module": "commonjs"
+  },
+  "include": ["./src/**/*"]
+}
